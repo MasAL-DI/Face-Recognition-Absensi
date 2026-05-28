@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database dan data sensitif
+database/
+*.db
+*.sqlite
+*.sqlite3
+*.key
+
+# Data wajah siswa
+data_wajah/
+dataset_spoof/
+
+# Model hasil training
+model/
+*.keras
+*.h5
+*.pkl
+*.onnx
+
+# Export laporan
+exports/
+*.csv
+*.xlsx
+*.pdf
+
+# File lokal/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variable
+.env
