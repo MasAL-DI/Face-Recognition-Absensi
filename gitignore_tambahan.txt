@@ -1,0 +1,16 @@
+# Data sensitif dan file besar
+database/
+data_wajah/
+dataset_spoof/
+model/
+exports/
+venv/
+__pycache__/
+*.db
+*.sqlite
+*.sqlite3
+*.key
+*.pkl
+*.keras
+*.h5
+*.onnx

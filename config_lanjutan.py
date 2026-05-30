@@ -36,7 +36,7 @@ EXPORT_DIR = BASE_DIR / "exports"
 # Implementasi yang disediakan di paket ini memakai ArcFace melalui InsightFace.
 FACE_EMBEDDING_METHOD = "ARCFACE"
 #"buffalo_l jika ingin ganti buffalo_sc"
-ARCFACE_MODEL_NAME = "buffalo_sc"
+ARCFACE_MODEL_NAME = "buffalo_l"
 ARCFACE_EMBEDDING_FILE = MODEL_DIR / "arcface_embeddings.pkl"
 
 # Nilai awal. Wajib dikalibrasi ulang memakai data wajah siswa di kamera/laptop yang sama.
